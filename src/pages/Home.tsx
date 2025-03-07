@@ -1,5 +1,5 @@
 import '../style/Home.css';
-import TextFade from '../components/TextAnimations';
+import TextFade from '../components/TextAnimations.tsx';
 
 const Home = () => {
   return (
