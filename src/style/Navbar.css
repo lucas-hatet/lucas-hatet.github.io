@@ -1,0 +1,20 @@
+nav {
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    height: 100%;
+    width: 8%;
+    margin: 0 20px;
+    align-content: center;
+    text-align: center;
+    color: #0a3951;
+    text-decoration: none;
+}
+
+#btn-home {
+    font-family: 'Gobold Cuts';
+    font-size: 3em;
+}

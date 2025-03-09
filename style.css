@@ -1,13 +1,22 @@
-html, body, body > div, body > canvas {
+@font-face {
+  font-family: 'Gobold Cuts';
+  src: url('src/assets/fonts/Gobold-Cuts-Italic.otf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+html, body, body > * {
   margin: 0;
   height: 100%;
   width: 100%;
+  overflow: hidden;
+}
+
+#root, #background {
   position: absolute;
   top: 0;
-  overflow: hidden;
-  z-index: 1;
 }
 
 #background {
-  z-index: 0;
+  z-index: -1;
 }

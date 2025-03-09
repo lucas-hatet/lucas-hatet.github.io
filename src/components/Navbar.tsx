@@ -1,11 +1,17 @@
+import '../style/Navbar.css';
 import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
   return (
-    <nav style={{ padding: "1rem", borderBottom: "1px solid #ccc" }}>
-      <Link to="/" style={{ marginRight: "10px" }}>Accueil</Link>
-      <Link to="/about">À propos</Link>
+    <nav>
+      <Link to="/presentation">Présentation</Link>
+      <Link to="/parcours">Parcours</Link>
+      <Link to="/competences">Compétences</Link>
+      <Link id="btn-home" to="/">LH</Link>
+      <Link to="/projets">Projets</Link>
+      <Link to="/interets"><div>Intérêts</div></Link>
+      <Link to="/contacts">Contacts</Link>
     </nav>
   );
 };
