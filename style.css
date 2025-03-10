@@ -4,6 +4,14 @@
   font-weight: normal;
   font-style: italic;
 }
+@font-face {
+  font-family: 'Corsiva';
+  src: url('src/assets/fonts/Corsiva.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+
 
 html, body, body > * {
   margin: 0;
@@ -18,5 +26,6 @@ html, body, body > * {
 }
 
 #background {
+  background-color: #e7dcc5;
   z-index: -1;
 }
