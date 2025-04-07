@@ -1,0 +1,51 @@
+nav {
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: fit-content;
+    align-content: center;
+    color: var(--text-color);
+    font-family: 'Gobold Thin';
+    font-size: 1em;
+    text-decoration: none;
+}
+a > p {
+    width: fit-content;
+    height: 100%;
+    align-content: center;
+    margin: 0;
+}
+
+a > p::after {
+    content: '';
+    position: relative;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    display: block;
+    background-color: var(--text-color);
+    transition: transform 0.25s ease-out;
+    transform-origin: bottom left;
+}
+a > p:hover::after {
+  transform: scaleX(1);
+}
+
+#btn-home {
+    font-family: 'Gobold Cuts';
+    font-size: 3em;
+    margin: 0 20px;
+}
+#btn-home > p::after {
+    display: none;
+}

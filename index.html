@@ -7,11 +7,28 @@
     <title>Lucas .H</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <canvas id="background"></canvas>
+  <body class="dark">
+    <div id="background"></div>
     <div id="root"></div>
-    <script type="module" src="/src/scripts/Background.js"></script>
-    <script type="module" src="/src/scripts/LockZoom.js"></script>
-    <script type="module" src="/src/main.tsx"></script>
+  <script type="module" src="/src/scripts/lockzoom.js"></script>
+  <script type="module" src="/src/main.tsx"></script>
+  <script src="/src/scripts/three.min.js"></script>
+  <script src="/src/scripts/vanta.waves.min.js"></script>
+  <script>
+    VANTA.WAVES({
+      el: "#background",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: true,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      shininess: 40.00,
+      waveHeight: 20.00,
+      zoom: 1,
+      color: 0x31014
+    })
+  </script>
   </body>
 </html>

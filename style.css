@@ -5,8 +5,8 @@
   font-style: italic;
 }
 @font-face {
-  font-family: 'Corsiva';
-  src: url('src/assets/fonts/Corsiva.ttf') format('truetype');
+  font-family: 'Gobold Thin';
+  src: url('src/assets/fonts/Gobold-Thin-Italic.otf') format('truetype');
   font-weight: normal;
   font-style: italic;
 }
@@ -20,12 +20,24 @@ html, body, body > * {
   overflow: hidden;
 }
 
+.light {
+  --text-color: black;
+  --bg-color: white;
+}
+.dark {
+  --text-color: white;
+  --bg-color: black;
+}
+
 #root, #background {
   position: absolute;
   top: 0;
 }
 
 #background {
-  background-color: #e7dcc5;
   z-index: -1;
+  background-color: var(--bg-color);
+}
+#background > canvas {
+  opacity: 0.5;
 }
