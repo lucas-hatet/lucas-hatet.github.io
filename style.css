@@ -13,13 +13,6 @@
 
 
 
-html, body, body > * {
-  margin: 0;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-}
-
 .light {
   --text-color: black;
   --bg-color: white;
@@ -28,6 +21,18 @@ html, body, body > * {
   --text-color: white;
   --bg-color: black;
 }
+
+
+
+html, body, body > * {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  color: var(--text-color);
+}
+
+
 
 #root, #background {
   position: absolute;
@@ -39,5 +44,5 @@ html, body, body > * {
   background-color: var(--bg-color);
 }
 #background > canvas {
-  opacity: 0.5;
+  opacity: 0.25;
 }

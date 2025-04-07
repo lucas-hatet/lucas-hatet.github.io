@@ -33,19 +33,39 @@ a > p::after {
     bottom: 0;
     left: 0;
     display: block;
-    background-color: var(--text-color);
+    background: linear-gradient(to right, #aaffff, white, #aaffff); /* !!! Couleurs !!! */
     transition: transform 0.25s ease-out;
-    transform-origin: bottom left;
+    transform-origin: bottom right;
 }
 a > p:hover::after {
   transform: scaleX(1);
+  transform-origin: bottom left;
+  animation: slide 10s ease-in-out infinite;
+}
+@keyframes slide {
+    from {
+        background-position: 0vw;
+    }
+    50% {
+        background-position: 20vw;
+    }
+    to {
+        background-position: 0vw;
+    }
 }
 
 #btn-home {
     font-family: 'Gobold Cuts';
     font-size: 3em;
     margin: 0 20px;
+    transition: all 0.2s ease-in-out;
 }
 #btn-home > p::after {
     display: none;
+}
+#btn-home:hover {
+    scale: 1.05;
+    transition: all 0.2s ease-in-out;
+    color: #aaffff; /* !!! Couleurs !!! */
+    cursor: pointer;
 }
