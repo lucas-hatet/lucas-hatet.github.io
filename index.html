@@ -4,12 +4,30 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />  
-    <title>Lucas .H</title>
-    <script type="module" crossorigin src="/assets/index-W6e-jHFG.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-CdnN_vyT.css">
+    <title>Lucas .H</title>
+    <script type="module" crossorigin src="/assets/index-KYxh9ttg.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Bmyga4hI.css">
   </head>
-  <body>
-    <canvas id="background"></canvas>
-    <div id="root"></div>
+  <body class="dark">
+    <div id="background"></div>
+    <div id="root"></div>
+  <script src="/src/scripts/three.min.js"></script>
+  <script src="/src/scripts/vanta.waves.min.js"></script>
+  <script>
+    VANTA.WAVES({
+      el: "#background",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: true,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      shininess: 40.00,
+      waveHeight: 20.00,
+      zoom: 1,
+      color: 0x31014
+    })
+  </script>
   </body>
 </html>
