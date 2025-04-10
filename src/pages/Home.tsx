@@ -1,12 +1,11 @@
 import '../style/Home.css';
-import TextFade from '../components/TextAnimations.tsx';
+import { HollowtextIntro } from '../components/Animations.tsx';
 
 const Home = () => {
   return (
     <div>
-        <TextFade>
-            <h2>Bienvenue sur la page d'accueil !</h2>
-        </TextFade>
+        <HollowtextIntro><h2>Bienvenue</h2></HollowtextIntro>
+        <HollowtextIntro delay={1}><h2>Sur la page d'accueil !</h2></HollowtextIntro>
     </div>
   );
 };
