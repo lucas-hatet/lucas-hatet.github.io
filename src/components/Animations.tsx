@@ -2,34 +2,35 @@ import { motion } from "framer-motion";
 import styled from 'styled-components';
 import React from 'react';
 
-interface HollowtextIntroProps {
+interface MultipleTextIntro {
   children: React.ReactNode;
 }
-
-const HollowtextIntro = ({ children }: HollowtextIntroProps) => {
+const MultipleTextIntro = ({ children }: MultipleTextIntro) => {
   const BoxStyled = styled(motion.div)`
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
   `;
   const childrenArray = React.Children.toArray(children);
   return (
-    { childrenArray.map((child, index) => (
-      <div style={{ position: "relative", overflow: "hidden" }}>
+    childrenArray.map((child, index) => (
+      <div key={`text-intro-${index}`} style={
+        { 
+          position: "relative",
+          overflow: "hidden",
+          height: "min",
+          }
+      }>
         <BoxStyled
-          initial={{ y: -50 }}
+          initial={{ y: -720 }}
           animate={{ y: 0 }}
           transition={{
-            duration: 0.5,
+            duration: 1,
             ease: "easeOut",
-            delay: 0.8 * index
+            delay: index * 1,
           }}>
           { child }
         </BoxStyled>
       </div>
-    }
-  );
-};
+  ))
+)};
 
-export { HollowtextIntro };
+export { MultipleTextIntro };

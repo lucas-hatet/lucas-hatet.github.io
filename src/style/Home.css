@@ -1,0 +1,34 @@
+.column {
+    width: 50%;
+    height: 100%;
+    align-content: center;
+}
+
+
+
+#nom {
+    display: flex;
+    flex-direction: column;
+}
+
+#nom h2 {
+    position: relative;
+    left: 0.35em;
+    font-size: 1.6em;
+}
+#nom * {
+    letter-spacing: normal;
+    transition: 0.5s ease-in-out;
+    font-size: 2.2em;
+}
+
+#nom *:hover {
+    letter-spacing: 0.02em;
+    transition: 0.5s ease-in-out;
+}
+
+
+
+#menu {
+    width: 100%;
+}

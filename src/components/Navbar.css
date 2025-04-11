@@ -1,6 +1,7 @@
 nav {
     height: 12vh;
     display: flex;
+    align-items: center;
     justify-content: center;
     gap: 50px;
     padding: 10px;
@@ -10,9 +11,11 @@ a {
     display: flex;
     justify-content: center;
     width: fit-content;
+    height: min-content;
     color: var(--text-color);
-    font-family: 'Gobold Thin';
-    font-size: 1em;
+    font-family: 'Gobold';
+    font-size: 18px;
+    font-style: normal;
     text-decoration: none;
     align-items: center;
 }
@@ -69,5 +72,4 @@ a > p:hover::after {
     scale: 1.05;
     transition: all 0.2s ease-in-out;
     color: #aaffff; /* !!! Couleurs !!! */
-    cursor: pointer;
 }
