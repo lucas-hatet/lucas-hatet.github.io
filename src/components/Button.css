@@ -1,0 +1,50 @@
+.button button {
+  background-color: initial;
+  border-style: none;
+  font-family: 'Gobold';
+  font-size: 120%;
+  width: 100%;
+  margin: 0;
+  padding: 20px 30px;
+  position: relative;
+  z-index: 0;
+}
+
+.button button:before, button:after {
+  border-radius: 80px;
+}
+.button button:before {
+  background: linear-gradient(to right, #aaffff, white, #aaffff);
+  opacity: 0.5;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -2;
+  animation: bgslide 10s ease-in-out infinite;
+  transition: all 100ms ease-out;
+}
+.button button:after {
+  background-color: black;
+  bottom: 4px;
+  content: "";
+  left: 4px;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  transition: all 100ms ease-out;
+  z-index: -1;
+}
+
+.button button:hover:before {
+  opacity: 0.9;
+  transition: all 100ms ease-out;
+  animation: bgslide 5s ease-in-out infinite;
+}
+.button button:hover:after {
+  opacity: 0.9;
+  transition: all 100ms ease-out;
+}

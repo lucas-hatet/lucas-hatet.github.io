@@ -9,12 +9,28 @@
   font-style: italic;
 }
 @font-face {
+  font-family: 'Gobold Lowplus';
+  src: url('src/assets/fonts/Gobold-Lowplus.otf') format('truetype');
+  font-weight: 100;
+}
+@font-face {
   font-family: 'Gobold Hollow';
   src: url('src/assets/fonts/Gobold-Hollow-Italic.otf') format('truetype');
 }
 @font-face {
   font-family: 'Gobold Cuts';
   src: url('src/assets/fonts/Gobold-Cuts-Italic.otf') format('truetype');
+}
+@keyframes bgslide {
+  from {
+      background-position: 0vw;
+  }
+  50% {
+      background-position: 20vw;
+  }
+  to {
+      background-position: 0vw;
+  }
 }
 
 
@@ -100,4 +116,16 @@ h2 {
   margin: 0;
   font-family: 'Gobold Hollow';
   font-weight: 100;
+}
+h3 {
+  font-family: 'Gobold Cuts';
+  font-weight: 100;
+}
+h4 {
+  font-family: 'Gobold';
+  font-weight: 100;
+}
+p {
+  font-family: 'Gobold lowplus';
+  text-align: justify;
 }
