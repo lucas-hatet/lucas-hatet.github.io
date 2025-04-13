@@ -1,50 +1,41 @@
-.button button {
-  background-color: initial;
-  border-style: none;
+/* From Uiverse.io by iZOXVL */ 
+.btn {
+  padding: 15px 30px;
+  border: 3px solid #2c2c2c;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
   font-family: 'Gobold';
-  font-size: 120%;
-  width: 100%;
-  margin: 0;
-  padding: 20px 30px;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  transition: all 0.4s ease;
+  outline: none;
   position: relative;
-  z-index: 0;
-}
-
-.button button:before, button:after {
-  border-radius: 80px;
-}
-.button button:before {
-  background: linear-gradient(to right, #aaffff, white, #aaffff);
-  opacity: 0.5;
-  content: "";
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
   overflow: hidden;
-  position: absolute;
-  z-index: -2;
-  animation: bgslide 10s ease-in-out infinite;
-  transition: all 100ms ease-out;
+  width: 100%;
+  height: 60px;
 }
-.button button:after {
-  background-color: black;
-  bottom: 4px;
-  content: "";
-  left: 4px;
-  position: absolute;
-  right: 4px;
-  top: 4px;
-  transition: all 100ms ease-out;
-  z-index: -1;
+.btn:hover {
+  border-color: #aaffff;
+  background: #292929;
 }
 
-.button button:hover:before {
-  opacity: 0.9;
-  transition: all 100ms ease-out;
-  animation: bgslide 5s ease-in-out infinite;
+.btn::before {
+  content: '';
+  border: solid white;
+  display: inline-block;
+  padding: 3px;
+  margin-right: 20px;
+  margin-bottom: 2px;
+  opacity: 0.5;
+  rotate: -45deg;
+  transition: all 0.2s ease-in-out;
 }
-.button button:hover:after {
-  opacity: 0.9;
-  transition: all 100ms ease-out;
+.btn:hover::before {
+  content: '';
+  border: solid #aaffff;
+  background: #aaffff;
+  rotate: 135deg;
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
 }
+

@@ -2,7 +2,7 @@ import '../style/Home.css';
 import { Link } from "react-router-dom";
 import Button from '../components/Button.tsx';
 
-const Home = () => {
+const Presentation = () => {
   return (
     <div class="container">
       <section class="column">
@@ -40,4 +40,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Presentation;

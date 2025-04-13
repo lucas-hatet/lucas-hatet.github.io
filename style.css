@@ -21,17 +21,6 @@
   font-family: 'Gobold Cuts';
   src: url('src/assets/fonts/Gobold-Cuts-Italic.otf') format('truetype');
 }
-@keyframes bgslide {
-  from {
-      background-position: 0vw;
-  }
-  50% {
-      background-position: 20vw;
-  }
-  to {
-      background-position: 0vw;
-  }
-}
 
 
 

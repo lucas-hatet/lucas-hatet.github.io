@@ -21,13 +21,13 @@
 
 #nom h2 {
     position: relative;
-    left: 0.35em;
-    font-size: 1.6em;
+    left: 50px;
+    font-size: 120px;
 }
 #nom * {
     letter-spacing: normal;
     transition: 0.5s ease-in-out;
-    font-size: 2.2em;
+    font-size: 180px;
 }
 
 #nom *:hover {
@@ -45,21 +45,45 @@
     width: 100%;
     max-width: 500px;
     align-self: center;
-}
-
-#menu > div {
-    margin: 20px;
-}
-
-.flex {
     display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
-.button-double {
+.two-buttons {
     display: flex;
     gap: 20px;
-    justify-content: center;
 }
-.button-double .button {
+.two-buttons > a {
     width: 100%;
+}
+
+#rsnav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+#rsnav > a > div {
+    width: 60px;  
+    height: 60px;
+    border-radius: 50%;
+    transition: all 0.4s ease;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+}
+#rsnav > a > div > svg {
+    height: 22px;
+    fill: white;
+    transition: 0.2s ease-in-out;
+}
+#rsnav > a > div:hover {
+    background-color: rgba(255, 255 , 255, 0.1);
+    transition: 0.2s ease-in-out;
 }

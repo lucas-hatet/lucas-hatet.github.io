@@ -11,6 +11,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "framer-motion": "^12.4.10",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

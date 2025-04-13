@@ -5,16 +5,15 @@ import './Button.css';
 interface Button {
   children: React.ReactNode;
   to: string;
+  btnclass?: string;
 }
-const Button = ({ children, to }: Button) => {
+const Button = ({ children, to, btnclass }: Button) => {
   return (
-    <div class="button">
-        <Link to={ to }>
-            <button id="btn">
-                { children }
-            </button>
-        </Link>
-    </div>
+      <Link to={ to }>
+          <button class={btnclass + " btn"}>
+              { children }
+          </button>
+      </Link>
   );
 };
 
