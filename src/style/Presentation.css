@@ -1,0 +1,13 @@
+.column {
+    width: 50%;
+    height: 100%;
+    align-content: center;
+}
+
+#column-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    padding: 0 5vw;
+}
