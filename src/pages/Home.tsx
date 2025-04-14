@@ -4,22 +4,22 @@ import Button from '../components/Button.tsx';
 
 const Home = () => {
   return (
-    <div class="container">
-      <section class="column">
+    <div className="container">
+      <section className="column">
         <div id="nom">
             <h2>LUCAS</h2>
             <h1>HATET</h1>
         </div>
       </section>
-      <section id="column-right" class="column">
+      <section id="column-right" className="column">
         <div id="menu">
           <p id="welcome">Bienvenue sur mon portfolio</p>
           <Button to="/presentation" btnclass="arrow">Présentation</Button>
-          <div class="two-buttons">
+          <div className="two-buttons">
             <Button to="/parcours" btnclass="arrow">Parcours</Button>
             <Button to="/projets" btnclass="arrow">Projets</Button>
           </div>
-          <div class="two-buttons">
+          <div className="two-buttons">
             <Button to="/competences" btnclass="arrow">Compétences</Button>
             <Button to="/interets" btnclass="arrow">Intérêts</Button>
           </div>

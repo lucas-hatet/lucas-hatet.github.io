@@ -4,10 +4,10 @@ import Button from '../components/Button.tsx';
 
 const Presentation = () => {
   return (
-    <div class="container">
-      <section class="column">
+    <div className="container">
+      <section className="column">
       </section>
-      <section class="column">
+      <section className="column">
       </section>
     </div>
   );

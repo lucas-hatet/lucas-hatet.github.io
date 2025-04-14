@@ -10,7 +10,7 @@ interface Button {
 const Button = ({ children, to, btnclass }: Button) => {
   return (
       <Link to={ to }>
-          <button class={btnclass + " btn"}>
+          <button className={btnclass + " btn"}>
               { children }
           </button>
       </Link>
