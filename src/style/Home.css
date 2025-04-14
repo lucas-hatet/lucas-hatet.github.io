@@ -67,7 +67,11 @@
     width: 100%;
 }
 #rsnav > a {
+    width: 60px;
     text-decoration: none;
+    text-align: center;
+    align-content: center;
+    position: relative; /* Ajout pour le positionnement du span */
 }
 #rsnav > a > div {
     width: 60px;  
@@ -85,9 +89,19 @@
     fill: white;
     transition: 0.2s ease-in-out;
 }
-#rsnav > a > div > span {
+#rsnav > a > span {
     text-decoration: none;
     font-family: 'Gobold';
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 70px;
+    white-space: nowrap;
+    opacity: 0;
 }
 #rsnav > a > div:hover {
     background-color: rgba(255, 255 , 255, 0.1);
@@ -95,4 +109,9 @@
 }
 #rsnav > a > div:hover > svg {
     fill: #aaffff;
+}
+#rsnav > a > div:hover + span {
+    opacity: 1;
+    transition: 0.2s ease-in-out;
+    transition-delay: 500ms;
 }
