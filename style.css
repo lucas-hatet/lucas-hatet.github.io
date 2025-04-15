@@ -43,7 +43,7 @@ html, body, #root, #background {
   background-color: var(--bg-color);
 }
 #background > canvas {
-  opacity: 0.25;
+  opacity: 0.5;
 }
 
 .container {
@@ -100,21 +100,26 @@ h1 {
   margin: 0;
   font-family: 'Gobold';
   font-style: italic;
+  color: var(--text-color);
 }
 h2 {
   margin: 0;
   font-family: 'Gobold Hollow';
   font-weight: 100;
+  color: var(--text-color);
 }
 h3 {
   font-family: 'Gobold Cuts';
   font-weight: 100;
+  color: var(--text-color);
 }
 h4 {
   font-family: 'Gobold';
   font-weight: 100;
+  color: var(--text-color);
 }
 p {
   font-family: 'Gobold lowplus';
   text-align: justify;
+  color: var(--text-color);
 }
