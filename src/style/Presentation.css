@@ -3,11 +3,19 @@
     height: 100%;
     align-content: center;
 }
+#column-left {
+    width: 40%;
+}
+#column-left span {
+    color: #aaffff;
+}
 
-#column-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 50px;
-    padding: 0 5vw;
+
+
+#title {
+    font-size: 30px;
+}
+
+#two-buttons {
+    margin-top: 60px;
 }

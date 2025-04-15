@@ -14,6 +14,12 @@
   font-weight: 100;
 }
 @font-face {
+  font-family: 'Gobold Lowplus';
+  src: url('src/assets/fonts/Gobold-Lowplus-Italic.otf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
   font-family: 'Gobold Hollow';
   src: url('src/assets/fonts/Gobold-Hollow-Italic.otf') format('truetype');
 }
@@ -113,6 +119,11 @@ h3 {
 h4 {
   font-family: 'Gobold';
   font-weight: 100;
+}
+h5 {
+  font-family: 'Gobold Lowplus';
+  font-weight: 100;
+  font-style: italic;
 }
 p {
   font-family: 'Gobold lowplus';
