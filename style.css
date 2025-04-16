@@ -95,7 +95,32 @@ html, body, #root, #background {
 
 * {
   color: var(--text-color);
-  cursor: url('src/assets/pointer.svg'), none;
+}
+
+
+
+
+
+
+.info-bulle::after {
+  content: attr(data-info);
+  text-decoration: none;
+  font-family: 'Gobold Lowplus';
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 70px;
+  white-space: nowrap;
+  opacity: 0;
+}
+.info-bulle:hover::after {
+  opacity: 1;
+  transition: 0.2s ease-in-out;
+  transition-delay: 500ms;
 }
 
 

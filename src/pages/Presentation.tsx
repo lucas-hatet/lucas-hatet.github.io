@@ -1,4 +1,4 @@
-import '../style/Presentation.css';
+import '../styles/Presentation.module.css';
 import { Link } from "react-router-dom";
 import Button from '../components/Button.tsx';
 
@@ -33,7 +33,7 @@ const Presentation = () => {
           <Button to="/competences" btnclass="arrow">Compétences</Button>
         </div>
       </section>
-      <section className="column">
+      <section className="column" id="column-right">
       </section>
     </div>
   );
