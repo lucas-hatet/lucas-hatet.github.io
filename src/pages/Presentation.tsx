@@ -1,5 +1,4 @@
 import '../styles/Presentation.module.css';
-import { Link } from "react-router-dom";
 import Button from '../components/Button.tsx';
 
 const Presentation = () => {
