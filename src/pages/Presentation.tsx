@@ -1,4 +1,4 @@
-import '../styles/Presentation.module.css';
+import '../styles/Presentation.css';
 import Button from '../components/Button.tsx';
 
 const Presentation = () => {

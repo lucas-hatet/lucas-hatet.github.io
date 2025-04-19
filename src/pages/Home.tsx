@@ -1,4 +1,4 @@
-import '../styles/Home.module.css';
+import '../styles/Home.css';
 import { Link } from "react-router-dom";
 import Button from '../components/Button.tsx';
 
