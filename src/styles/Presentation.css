@@ -7,7 +7,7 @@
     width: 40%;
 }
 #column-left span {
-    color: #aaffff;
+    color: var(--second-color);
 }
 
 

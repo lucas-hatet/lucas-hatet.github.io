@@ -15,16 +15,16 @@ const Presentation = () => {
           que j'ai obtenu courant 2023 (Avec mention).
         </p>
         <p>
-          Après ça j'ai voulu démarrer mes études à Annecy, où je suis actuellement
-          en <span>2e année de BUT informatique</span>. J'ambitionne de partir à l'étranger sous peu,
-          pour valider ma 3e année avec une double-diplomation (BUT Info + Baccalauréat canadien).
-          Sur le moyen terme je souhaiterais poursuivre mes études jusqu'à un master,
-          probablement en front-end ou dans l'IA.
+          Après ça j'ai voulu démarrer mes études à Annecy, où j'ai obtenu mon <span>DUT informatique (2 ans)</span>.
+          Je suis actuellement en 3e année de <span>Baccalauréat canadien en développement de jeux vidéo</span> à l'UQAC,
+          pour valider mon BUT Informatique et ainsi obtneir une double diplomation.
+          Sur le moyen terme je souhaiterais poursuivre mes études jusqu'à un Bac +5,
+          probablement dans le domaine de la 3D, qui m'interesse particulièrement.
         </p>
         <p>
           Je suis plutôt <span>curieux, ambitieux et avide d'apprendre</span>, et tout ça m'a permis
           d'en apprendre plus sur le développement par moi-même : TypeScript, React, C++, ...
-          Je m'intéresse également à d'autres choses comme le design, la 3D, le sport, le jeu vidéo, ...
+          Je m'intéresse également à d'autres choses comme le design, l'animation, le sport, ...
           Plutôt polyvalent qu'expert à vrai dire.
         </p>
         <div id="two-buttons" className="two-buttons">

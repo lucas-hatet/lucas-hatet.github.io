@@ -86,13 +86,13 @@
 }
 #rsnav > a > div > svg {
     height: 22px;
-    fill: white;
+    fill: var(--text-color-1);
     transition: 0.2s ease-in-out;
 }
 #rsnav > a > div:hover {
-    background-color: rgba(255, 255 , 255, 0.1);
+    background-color: var(--tbg-color-2);
     transition: 0.2s ease-in-out;
 }
 #rsnav > a > div:hover > svg {
-    fill: #aaffff;
+    fill: var(--second-color);
 }

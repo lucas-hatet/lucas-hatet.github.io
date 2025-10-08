@@ -1,9 +1,8 @@
-/* From Uiverse.io by iZOXVL */ 
 .btn {
   padding: 15px 30px;
-  border: 3px solid #2c2c2c;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #ffffff;
+  border: 3px solid var(--bg-color-2);
+  background-color: var(--tbg-color-1);
+  color: var(--text-color-1);
   font-family: 'Gobold';
   font-size: 1.2rem;
   border-radius: 30px;
@@ -15,13 +14,13 @@
   height: 60px;
 }
 .btn:hover {
-  border-color: #aaffff;
-  background: #292929;
+  border-color: var(--second-color);
+  background: var(--bg-color-2);
 }
 
 .btn::before {
   content: '';
-  border: solid white;
+  border: solid var(--text-color-2);
   display: inline-block;
   padding: 3px;
   margin-right: 20px;
@@ -32,8 +31,8 @@
 }
 .btn:hover::before {
   content: '';
-  border: solid #aaffff;
-  background: #aaffff;
+  border: solid var(--second-color);
+  background: var(--second-color);
   rotate: 135deg;
   opacity: 1;
   transition: all 0.2s ease-in-out;

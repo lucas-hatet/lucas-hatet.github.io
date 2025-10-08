@@ -46,10 +46,13 @@ html, body, #root, #background {
 
 #background {
   z-index: -1;
-  background-color: var(--bg-color);
+  background-color: var(--bg-color-1);
 }
-#background > canvas {
+.dark > #background > canvas {
   opacity: 0.5;
+}
+.light > #background > canvas {
+  opacity: 0.3;
 }
 
 .container {
@@ -78,6 +81,7 @@ html, body, #root, #background {
 * {
   cursor: none;
 }
+* 
 
 
 
@@ -85,16 +89,27 @@ html, body, #root, #background {
 
 
 .light {
-  --text-color: black;
-  --bg-color: white;
+  --text-color-1: black;
+  --text-color-2: #2c2c2c;
+  --second-color: #288;
+  --bg-color-1: white;
+  --bg-color-2: #bbb;
+  --tbg-color-1: rgba(255, 255, 255, 0.5);
+  --tbg-color-2: rgba(0, 0, 0, 0.1);
 }
 .dark {
-  --text-color: white;
-  --bg-color: black;
+  --text-color-1: white;
+  --text-color-2: #c2c2c2;
+  --second-color: #aff;
+  --bg-color-1: black;
+  --bg-color-2: #222;
+  --tbg-color-1: rgba(0, 0, 0, 0.5);
+  --tbg-color-2: rgba(255, 255, 255, 0.1);
 }
 
-* {
-  color: var(--text-color);
+*:not(.custom-cursor) {
+  color: var(--text-color-1);
+  transition: 0.2s ease-in-out;
 }
 
 
@@ -131,23 +146,23 @@ h1 {
   margin: 0;
   font-family: 'Gobold';
   font-style: italic;
-  color: var(--text-color);
+  color: var(--text-color-1);
 }
 h2 {
   margin: 0;
   font-family: 'Gobold Hollow';
   font-weight: 100;
-  color: var(--text-color);
+  color: var(--text-color-1);
 }
 h3 {
   font-family: 'Gobold Cuts';
   font-weight: 100;
-  color: var(--text-color);
+  color: var(--text-color-1);
 }
 h4 {
   font-family: 'Gobold';
   font-weight: 100;
-  color: var(--text-color);
+  color: var(--text-color-1);
 }
 h5 {
   font-family: 'Gobold Lowplus';
@@ -157,5 +172,5 @@ h5 {
 p {
   font-family: 'Gobold lowplus';
   text-align: justify;
-  color: var(--text-color);
+  color: var(--text-color-1);
 }
