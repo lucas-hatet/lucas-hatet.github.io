@@ -94,5 +94,5 @@
     transition: 0.2s ease-in-out;
 }
 #rsnav > a > div:hover > svg {
-    fill: var(--second-color);
+    fill: var(--second-color-1);
 }

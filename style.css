@@ -78,10 +78,6 @@ html, body, #root, #background {
 .custom-cursor.active {
   filter: brightness(0.5);
 }
-* {
-  cursor: none;
-}
-* 
 
 
 
@@ -91,7 +87,8 @@ html, body, #root, #background {
 .light {
   --text-color-1: black;
   --text-color-2: #2c2c2c;
-  --second-color: #288;
+  --second-color-1: #288;
+  --second-color-2: #aff;
   --bg-color-1: white;
   --bg-color-2: #bbb;
   --tbg-color-1: rgba(255, 255, 255, 0.5);
@@ -100,7 +97,8 @@ html, body, #root, #background {
 .dark {
   --text-color-1: white;
   --text-color-2: #c2c2c2;
-  --second-color: #aff;
+  --second-color-1: #aff;
+  --second-color-2: #288;
   --bg-color-1: black;
   --bg-color-2: #222;
   --tbg-color-1: rgba(0, 0, 0, 0.5);
@@ -168,6 +166,7 @@ h5 {
   font-family: 'Gobold Lowplus';
   font-weight: 100;
   font-style: italic;
+  color: var(--text-color-1);
 }
 p {
   font-family: 'Gobold lowplus';

@@ -14,7 +14,7 @@
   height: 60px;
 }
 .btn:hover {
-  border-color: var(--second-color);
+  border-color: var(--second-color-1);
   background: var(--bg-color-2);
 }
 
@@ -31,8 +31,8 @@
 }
 .btn:hover::before {
   content: '';
-  border: solid var(--second-color);
-  background: var(--second-color);
+  border: solid var(--second-color-1);
+  background: var(--second-color-1);
   rotate: 135deg;
   opacity: 1;
   transition: all 0.2s ease-in-out;
