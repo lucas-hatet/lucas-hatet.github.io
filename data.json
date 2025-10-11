@@ -2,52 +2,44 @@
     "parcours":[
         {
             "pro":false,
-            "nom":"Baccalauréat général",
-            "image":".png",
-            "etablissement":"Lycée Alcide d'Orbigny", 
-            "ville": "Bouaye",
-            "pays": "France",
+            "nom":"Baccalauréat canadien en développement de jeux vidéo",
+            "image":"/images/chicoutimi.png",
+            "etablissement":"UQAC", 
+            "ville": "Chicoutimi",
+            "pays": "Canada",
             "debut":{
-                "mois":9,
-                "année":2020
+                "mois":8,
+                "annee":2025
             },
             "fin":{
-                "mois":7,
-                "année":2023
+                "mois":4,
+                "annee":2026
             },
             "description":"J'ai obtenu mon baccalauréat général, spécialité Mathématiques et Numérique et Science de l'Informatique (NSI) en juillet 2023, avec mention assez bien. Durant ces trois années j'ai également choisi de prendre la spécialité Physique-Chimie (abandonnée en terminale), et j'ai poursuivi l'allemand en LV2. J'étais également adhérant à l'association sportive du lycée, où je faisais du futsal et du badminton.",
             "competences":[
                 {
+                    "nom":"Moteur de jeu",
+                    "liste":[
+                        {
+                            "nom":"Unreal",
+                            "icone":""
+                        }
+                    ]
+                },
+                {
                     "nom":"Programmation",
                     "liste":[
                         {
-                            "nom":"Python",
+                            "nom":"C++",
                             "icone":""
                         }
                     ]
                 },
                 {
-                    "nom":"Web",
+                    "nom":"Gestion de projet",
                     "liste":[
                         {
-                            "nom":"HTML",
-                            "icone":""
-                        },
-                        {
-                            "nom":"CSS",
-                            "icone":""
-                        },
-                        {
-                            "nom":"JS",
-                            "icone":""
-                        }
-                    ]
-                },
-                {
-                    "nom":"Base de données",
-                    "liste":[
-                        {
-                            "nom":"SQL",
+                            "nom":"MS Project",
                             "icone":""
                         }
                     ]
@@ -63,18 +55,18 @@
         },
         {
             "pro":false,
-            "nom":"BUT Informatique (Parcours RACDV)",
-            "image":".png",
+            "nom":"BUT Informatique",
+            "image":"/images/annecy.png",
             "etablissement":"IUT d'Annecy", 
-            "ville": "Annecy",
+            "ville": "Annecy-le-Vieux",
             "pays": "France",
             "debut":{
                 "mois":9,
-                "année":2023
+                "annee":2023
             },
             "fin":{
                 "mois":0,
-                "année":0
+                "annee":0
             },
             "description":"J'ai choisi le parcours Réalisation d'Application (RACDV) où je développe mes compétences en conception, développement, test et déploiement d'application. J'ai également pu en apprendre plus sur des notions orientées informatique, notamment la création et l'administration de base de données, la gestion de projet, l'économie, la gestion d'entreprise, la communication, l'anglais d'entreprise et le droit appliqué à l'informatique. J'ai eu l'occasion de travailler en équipe sur des projets de développement et autres, et actuellement je recherche un stage pour valider ma 2e année.",
             "competences":[
@@ -217,17 +209,17 @@
         {
             "pro":true,
             "nom":"Ouvrier serriste",
-            "image":".png",
+            "image":"/images/serres.png",
             "etablissement":"Serres de la Piogerie", 
             "ville": "Saint-Léger-les-Vignes",
             "pays": "France",
             "debut":{
                 "mois":8,
-                "année":2024
+                "annee":2024
             },
             "fin":{
                 "mois":8,
-                "année":2024
+                "annee":2024
             },
             "description":"En tant qu'ouvrier serriste j'étais chargé d'entretenir les plants de tomates : effeuillage, eggîtage, entretien des installations",
             "competences":[],
@@ -236,6 +228,67 @@
                 {
                     "nom":"Site",
                     "lien":"https://www.serres-piogerie-stleger.fr/"
+                }
+            ]
+        },
+        {
+            "pro":false,
+            "nom":"Baccalauréat général",
+            "image":"/images/bouaye.png",
+            "etablissement":"Lycée Alcide d'Orbigny", 
+            "ville": "Bouaye",
+            "pays": "France",
+            "debut":{
+                "mois":9,
+                "annee":2020
+            },
+            "fin":{
+                "mois":7,
+                "annee":2023
+            },
+            "description":"J'ai obtenu mon baccalauréat général, spécialité Mathématiques et Numérique et Science de l'Informatique (NSI) en juillet 2023, avec mention assez bien. Durant ces trois années j'ai également choisi de prendre la spécialité Physique-Chimie (abandonnée en terminale), et j'ai poursuivi l'allemand en LV2. J'étais également adhérant à l'association sportive du lycée, où je faisais du futsal et du badminton.",
+            "competences":[
+                {
+                    "nom":"Programmation",
+                    "liste":[
+                        {
+                            "nom":"Python",
+                            "icone":""
+                        }
+                    ]
+                },
+                {
+                    "nom":"Web",
+                    "liste":[
+                        {
+                            "nom":"HTML",
+                            "icone":""
+                        },
+                        {
+                            "nom":"CSS",
+                            "icone":""
+                        },
+                        {
+                            "nom":"JS",
+                            "icone":""
+                        }
+                    ]
+                },
+                {
+                    "nom":"Base de données",
+                    "liste":[
+                        {
+                            "nom":"SQL",
+                            "icone":""
+                        }
+                    ]
+                }
+            ],
+            "refs":[],
+            "liens":[
+                {
+                    "nom":"Site",
+                    "lien":"https://alcide-orbigny.paysdelaloire.e-lyco.fr/"
                 }
             ]
         }
